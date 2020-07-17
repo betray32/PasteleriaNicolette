@@ -22,7 +22,7 @@
 	margin-right: 5px;
 	line-height: 30px;
 	font-size: 13px;
-	color: #333;	
+	color: white;	
 	text-align: center;
 	text-decoration: none;
 	font-weight: 400;
@@ -36,7 +36,7 @@ display: inline-block;
 .ddsmoothmenu ul li a.last { background: none }
 
 .ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
-	color: #c58877;
+	color: #D90404;
 }
 
 /*1st sub level menu*/

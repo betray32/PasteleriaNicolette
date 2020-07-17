@@ -3,7 +3,7 @@
 #carousel {
 	float: left;
     position:relative;
-    width: 900px;
+    width: auto;
 	height: 288px;
 }
 

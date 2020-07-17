@@ -9,85 +9,239 @@ body {
 	color: #8f7b76;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	line-height: 1.4em; 
-	background-color: #d5ccbd; 
-	background-image: url(images/tooplate_body.jpg);
-	background-repeat: repeat-y;
+	line-height: 1.4em;
+	background-color: #949DA6;
+	background-image: url(images/patron_fondo/carbon-fibre-v2.png);
+	background-repeat: repeat;
 	background-position: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color:#b04b2f;
-	font-weight:400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #b04b2f;
+	font-weight: 400;
 	padding: 0;
 	margin: 0 0 10px 0;
 }
 
-h1 { font-size:34px; margin-bottom: 35px  }
-h2 { font-size:26px; margin-bottom: 30px; line-height: 20px; }
-h3 { font-size:20px; line-height: 24px }
-h4 { font-size:18px }
-h5 { font-size:16px }
-h6 { font-size:12px }
+h1 {
+	font-size: 34px;
+	margin-bottom: 35px
+}
 
-.left { float:left }
-.right { float:right }
-.clear { clear: both }
-.h10 { height: 10px }
-.h20 { height: 20px }
-.h30 { height: 30px }
-.h60 { height: 60px }
+h2 {
+	font-size: 26px;
+	margin-bottom: 30px;
+	line-height: 20px;
+}
 
-img { margin: 0; padding: 0; border: 0 }
-.img_border { border: 1px solid #eaeaea; background: #ffffff; }
-.img_border_s { padding: 3px }
-.img_border_b { padding: 6px }
-.img_nom { display: block; margin-bottom: 15px }
-.img_fl { float: left; display: block; margin: 1px 20px 8px 0 }
-.img_fr { float: right; margin: 1px 0 8px 20px }
+h3 {
+	font-size: 20px;
+	line-height: 24px
+}
 
-p { margin: 0 0 10px 0; padding: 0 }
-em { color: #8c8c8c }
-hr { clear: both; margin-bottom: 40px; padding-top: 28px; border: none; background: url(images/tooplate_hr.png) center bottom no-repeat }
+h4 {
+	font-size: 18px
+}
 
-label { display: block; }
-input { margin-bottom: 10px }
+h5 {
+	font-size: 16px
+}
 
-a:link, a:visited { color:#9b412d; text-decoration: none}
-a:hover { text-decoration:underline }
-a:hover,a:active { outline:none }
+h6 {
+	font-size: 12px
+}
 
-a.more { display: block; margin-top: 15px; color: #485c68; width: 69px; height: 24px; line-height: 24px; text-align: center; background: url(images/tooplate_more.png) }
+.left {
+	float: left
+}
 
-a.button { display: inline-block; padding: 5px 10px; background: #9b6150; border: 1px solid #fff; color: #fff; font-weight: 700 }
-a.button:hover { background: #842d1c; border: 1px solid #fff }
+.right {
+	float: right
+}
 
-a.button, a.more { text-decoration: none }
+.clear {
+	clear: both
+}
 
-ul.nobullet { margin: 0; padding: 0; list-style: none }
-ul.nobullet li { margin: 0; padding: 0 }
+.h10 {
+	height: 10px
+}
 
-ul.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
-ul.list_bullet li { color:#4a545a; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(images/tooplate_bullet.png) no-repeat scroll 0 5px  }
-ul.list_bullet li a { color: #4a545a; font-weight: normal; text-decoration: none }
-ul.list_bullet li a:hover { color: #4a545a }
+.h20 {
+	height: 20px
+}
+
+.h30 {
+	height: 30px
+}
+
+.h60 {
+	height: 60px
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.img_border {
+	border: 1px solid #eaeaea;
+	background: #ffffff;
+}
+
+.img_border_s {
+	padding: 3px
+}
+
+.img_border_b {
+	padding: 6px
+}
+
+.img_nom {
+	display: block;
+	margin-bottom: 15px
+}
+
+.img_fl {
+	float: left;
+	display: block;
+	margin: 1px 20px 8px 0
+}
+
+.img_fr {
+	float: right;
+	margin: 1px 0 8px 20px
+}
+
+p {
+	margin: 0 0 10px 0;
+	padding: 0
+}
+
+em {
+	color: #8c8c8c
+}
+
+hr {
+	clear: both;
+	margin-bottom: 40px;
+	padding-top: 28px;
+	border: none;
+	background: url(images/tooplate_hr.png) center bottom no-repeat
+}
+
+label {
+	display: block;
+}
+
+input {
+	margin-bottom: 10px
+}
+
+a:link,
+a:visited {
+	color: #9b412d;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+a:hover,
+a:active {
+	outline: none
+}
+
+a.more {
+	display: block;
+	margin-top: 15px;
+	color: #485c68;
+	width: 69px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: url(images/tooplate_more.png)
+}
+
+a.button {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #9b6150;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 700
+}
+
+a.button:hover {
+	background: #842d1c;
+	border: 1px solid #fff
+}
+
+a.button,
+a.more {
+	text-decoration: none
+}
+
+ul.nobullet {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+ul.nobullet li {
+	margin: 0;
+	padding: 0
+}
+
+ul.list_bullet {
+	margin: 10px 0 10px 15px;
+	padding: 0;
+	list-style: none
+}
+
+ul.list_bullet li {
+	color: #4a545a;
+	margin: 0 0 7px 0;
+	padding: 0 0 0 20px;
+	background: url(images/tooplate_bullet.png) no-repeat scroll 0 5px
+}
+
+ul.list_bullet li a {
+	color: #4a545a;
+	font-weight: normal;
+	text-decoration: none
+}
+
+ul.list_bullet li a:hover {
+	color: #4a545a
+}
 
 #tooplate_wrapper {
-	width: 960px;
+	width: 85%;
 	margin: 0 auto;
 	padding: 10px;
 }
 
 #tooplate_header {
 	height: 90px;
-	margin-bottom: 20px;
-	background: url(images/tooplate_header.png) no-repeat
+	margin-bottom: 10px;
+	background-color: #724573;
+	border-radius: 20px;
+	/* background: url(images/tooplate_header.png) no-repeat */
 }
 
 #header_top {
 	padding: 10px 30px;
 	height: 30px;
 }
+
 #header_bottom {
 	padding: 8px 40px;
 	height: 24px;
@@ -95,8 +249,22 @@ ul.list_bullet li a:hover { color: #4a545a }
 	color: #ccc
 }
 
-#tooplate_slider { position: relative; padding: 0; margin: 0 30px 20px; width: 900px; height: 290px; }
-#tooplate_slider span.frame { position: absolute; z-index: 100; width: 900px; height: 290px; top: 0; left: 0; background: url(images/tooplate_slider_frame.png) no-repeat }
+#tooplate_slider {
+	position: relative;
+	padding: 0;
+	width: auto;
+	height: 290px;
+}
+
+#tooplate_slider span.frame {
+	position: absolute;
+	z-index: 100;
+	width: auto;
+	height: 290px;
+	top: 0;
+	left: 0;
+	background: url(images/tooplate_slider_frame.png) no-repeat
+}
 
 #tooplate_main {
 	padding: 30px 15px;
@@ -104,25 +272,29 @@ ul.list_bullet li a:hover { color: #4a545a }
 	margin-bottom: 20px;
 	background: url(images/tooplate_main_m.png) repeat-y
 }
+
 #tooplate_main .main_border {
 	position: absolute;
 	left: 0;
 	width: 960px;
 	height: 10px;
 }
+
 #tooplate_main .main_border_t {
 	top: -10px;
 	background: url(images/tooplate_main_t.png)
 }
-#tooplate_main .main_border_b { 
+
+#tooplate_main .main_border_b {
 	bottom: -10px;
 	background: url(images/tooplate_main_b.png)
 }
 
 #tooplate_bottom_wrapper {
 	width: 100%;
-	background: #c58877 url(images/tooplate_bottom.png) repeat-x top
+	background: #724573 url(images/tooplate_bottom.png) repeat-x top
 }
+
 #tooplate_bottom {
 	width: 930px;
 	margin: 0 auto;
@@ -142,26 +314,86 @@ ul.list_bullet li a:hover { color: #4a545a }
 	text-align: center;
 }
 
-#content { width: 590px; float: left; margin: 0 15px }
-#sidebar { width: 280px; float: right; margin: 0 15px }
-.col { float: left; margin: 0 15px 30px 15px; }
-.col_1 { width: 900px }
-.col_2 { width: 435px }
-.col_3 { width: 280px }
-.col_32 { width: 590px }
-.col_4 { width: 202px; }
-.col_43 { width: 667px }
+#content {
+	width: 590px;
+	float: left;
+	margin: 0 15px
+}
 
-#site_title { float: left; }
-#site_title a { display: block; font-size: 12px; font-family: Georgia, "Times New Roman", Times, serif; width: 250px; height: 30px; color: #acacac; text-indent: -10000px; background: url(images/tooplate_logo.png) no-repeat center left }
+#sidebar {
+	width: 280px;
+	float: right;
+	margin: 0 15px
+}
 
-#tooplate_menu { float: right }
+.col {
+	float: left;
+	margin: 0 15px 30px 15px;
+}
 
-#header_bottom a { color: #fff }
-#header_bottom p { float: left; width: 500px }
-#header_bottom p span { color: #fac81b }
+.col_1 {
+	width: 900px
+}
 
-#tooplate_search { float: right; width: 250px; height: 24px; background: url(images/tooplate_search.png) }
+.col_2 {
+	width: 435px
+}
+
+.col_3 {
+	width: 280px
+}
+
+.col_32 {
+	width: 590px
+}
+
+.col_4 {
+	width: 202px;
+}
+
+.col_43 {
+	width: 667px
+}
+
+#site_title {
+	float: left;
+}
+
+#site_title a {
+	display: block;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 250px;
+	height: 30px;
+	color: #acacac;
+	text-indent: -10000px;
+	background: url(images/tooplate_logo.png) no-repeat center left
+}
+
+#tooplate_menu {
+	float: right
+}
+
+#header_bottom a {
+	color: #fff
+}
+
+#header_bottom p {
+	float: left;
+	width: 500px
+}
+
+#header_bottom p span {
+	color: #fac81b
+}
+
+#tooplate_search {
+	float: right;
+	width: 250px;
+	height: 24px;
+	background: url(images/tooplate_search.png)
+}
+
 #tooplate_search form {
 	margin: 0;
 	padding: 0;
@@ -177,7 +409,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	color: #ccc;
 	font-size: 12px;
 	font-variant: normal;
-	border: none;	
+	border: none;
 	background: none;
 }
 
@@ -188,12 +420,14 @@ ul.list_bullet li a:hover { color: #4a545a }
 	width: 60px;
 	cursor: pointer;
 	border: none;
-	background: none;	
+	background: none;
 }
 
-.product h1, .product h2 {
+.product h1,
+.product h2 {
 	margin-left: 20px;
 }
+
 .product .product_box {
 	float: left;
 	width: 170px;
@@ -202,6 +436,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	margin: 15px;
 	padding: 15px;
 }
+
 .product .product_box .img_box {
 	width: 160px;
 	height: 148px;
@@ -211,6 +446,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	margin-bottom: 15px;
 	position: relative;
 }
+
 .product .product_box .img_box span {
 	position: absolute;
 	width: 170px;
@@ -219,6 +455,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	left: 0;
 	background: url(images/image_frame.png) center top no-repeat
 }
+
 #tooplate_main .product .product_box h2 {
 	margin: 0 0 10px 0;
 }
@@ -226,9 +463,10 @@ ul.list_bullet li a:hover { color: #4a545a }
 .product .product_box h2 a {
 	font-weight: bold;
 	color: #666;
-	font-size: 14px;	
+	font-size: 14px;
 	text-transform: uppercase
 }
+
 .product .price {
 	font-size: 30px;
 	color: #dbc400;
@@ -244,10 +482,22 @@ ul.list_bullet li a:hover { color: #4a545a }
 	font-weight: 400;
 	color: #8f7b76
 }
-.product .price strong { color: #842c1b }
 
-.product .add_to_cart { display: block; float: left; margin-right: 20px; line-height: 18px; }
-#tooplate_main .product .product_detail h1 { margin: 0 0 30px 0; padding: 5px 0 }
+.product .price strong {
+	color: #842c1b
+}
+
+.product .add_to_cart {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	line-height: 18px;
+}
+
+#tooplate_main .product .product_detail h1 {
+	margin: 0 0 30px 0;
+	padding: 5px 0
+}
 
 #tooplate_main .product .product_preview {
 	width: 405px;
@@ -259,9 +509,11 @@ ul.list_bullet li a:hover { color: #4a545a }
 	width: 130px;
 	float: right;
 }
+
 #tooplate_main .product .product_preview ul li {
 	display: block;
 }
+
 #tooplate_main .product .product_preview ul li img {
 	padding: 1px;
 	border: 1px solid #eee
@@ -279,6 +531,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	padding: 0;
 	list-style: none
 }
+
 .sidebar_link_list li {
 	margin: 0;
 	padding: 5px 10px;
@@ -289,50 +542,83 @@ ul.list_bullet li a:hover { color: #4a545a }
 	color: #333
 }
 
-.popular_products li { color: #999; padding: 10px; }
-.popular_products li img { float: left; border: 1px solid #fff; margin-right: 10px }
-.popular_products li span { display: block; }
-.popular_products li span.title { margin-bottom: 5px; font-weight: 700; }
-.popular_products li span.price { color: #dbc400; font-size: 14px; font-weight: 700; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif }
-
-#contact_form { padding: 0; margin-bottom: 40px; width: 435px; }
-
-#contact_form form { margin: 0px; padding: 0px; }
-
-#contact_form form .input_field { 
-	width: 100%;
-	max-width: 300px; 
-	padding: 10px; 
-	margin-bottom: 20px; 
-	color: #808b98;  
-	background: #fff; 
-	border: 1px solid #dedede; 
+.popular_products li {
+	color: #999;
+	padding: 10px;
 }
 
-#contact_form form label { display: block; width: 280px; margin-bottom: 10px; font-size: 13px }
+.popular_products li img {
+	float: left;
+	border: 1px solid #fff;
+	margin-right: 10px
+}
 
-#contact_form form textarea { 
+.popular_products li span {
+	display: block;
+}
+
+.popular_products li span.title {
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.popular_products li span.price {
+	color: #dbc400;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+#contact_form {
+	padding: 0;
+	margin-bottom: 40px;
+	width: 435px;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_form form .input_field {
 	width: 100%;
-	max-width: 400px; 
-	height: 200px; 
-	padding: 10px; 
-	margin-bottom: 10px; 
-	color: #808b98; 
-	background: #fff; 
-	border: 1px solid #dedede; 
+	max-width: 300px;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: #808b98;
+	background: #fff;
+	border: 1px solid #dedede;
+}
+
+#contact_form form label {
+	display: block;
+	width: 280px;
+	margin-bottom: 10px;
+	font-size: 13px
+}
+
+#contact_form form textarea {
+	width: 100%;
+	max-width: 400px;
+	height: 200px;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #808b98;
+	background: #fff;
+	border: 1px solid #dedede;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
 .submit_btn {
-	display: block; 
-	padding: 15px 20px; 
-	text-align: center; 
-	text-decoration: none; 
-	font-weight: bold;  
-	background: #9b6150; 
-	border: 1px solid #fff; 
-	color: #fff; 
+	display: block;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	background: #9b6150;
+	border: 1px solid #fff;
+	color: #fff;
 	font-size: 13px;
 	cursor: pointer;
 }
@@ -343,19 +629,33 @@ ul.list_bullet li a:hover { color: #4a545a }
 	font-weight: 700;
 	padding: 5px 0 20px;
 }
+
 #tooplate_bottom h5 {
 	color: #fff;
 	font-size: 12px;
 	font-weight: 700;
 }
-#tooplate_bottom a { color: #fff }
+
+#tooplate_bottom a {
+	color: #fff
+}
+
 #tooplate_bottom .list_bullet {
 	margin: 0;
 }
 
-.twitter p { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #9b6150 }
+.twitter p {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #9b6150
+}
 
-#tooplate_newsletter { width: 200px; height: 24px; background: url(images/newsletter.png) }
+#tooplate_newsletter {
+	width: 200px;
+	height: 24px;
+	background: url(images/newsletter.png)
+}
+
 #tooplate_newsletter form {
 	margin: 0;
 	padding: 0;
@@ -371,7 +671,7 @@ ul.list_bullet li a:hover { color: #4a545a }
 	color: #ccc;
 	font-size: 12px;
 	font-variant: normal;
-	border: none;	
+	border: none;
 	background: none;
 }
 
@@ -382,20 +682,39 @@ ul.list_bullet li a:hover { color: #4a545a }
 	width: 60px;
 	cursor: pointer;
 	border: none;
-	background: none;	
+	background: none;
 }
 
-.pagging { margin: 0 15px; padding: 0 }
-.pagging ul { margin: 0; padding: 0; list-style: none }
-.pagging ul li { margin: 0; padding: 0; display: inline }
-.pagging ul li a { 
-	float: left; 
-	display: block; 
-	color: #fff; 
-	text-decoration: none; 
-	margin-right: 10px; 
-	padding: 10px 15px; 
-	background: #c58877; 
+.pagging {
+	margin: 0 15px;
+	padding: 0
+}
+
+.pagging ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.pagging ul li {
+	margin: 0;
+	padding: 0;
+	display: inline
+}
+
+.pagging ul li a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 10px 15px;
+	background: #c58877;
 	border: 1px solid #9b6150;
 }
-.pagging ul li a:hover { color: #fff; background: #842d1c; border: 1px solid #641c0e }
+
+.pagging ul li a:hover {
+	color: #fff;
+	background: #842d1c;
+	border: 1px solid #641c0e
+}
