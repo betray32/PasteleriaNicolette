@@ -1,0 +1,33 @@
+
+/**** FUENTES *****/
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+/**** FUENTES *****/
+
+
+/**********************
+/* HEADER */
+.titulo_cabecera {
+    font-size: 29px;
+    color: white;
+    margin-top: 6px;
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+}
+
+#panelBuscador {
+    float: right;
+}
+
+#carrusel {
+    background-color: #D99036;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#contenido {
+    height: 500px;
+    background-color: #D99036;
+    margin-top: 10px;
+    border-radius: 20px;
+}
