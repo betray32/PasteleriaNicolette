@@ -4,15 +4,23 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { WrapperComponent } from './wrapper/wrapper.component';
 import { FooterComponent } from './footer/footer.component';
+import { TortasComponent } from './tortas/tortas.component';
+import { GalletasComponent } from './galletas/galletas.component';
+import { EmporioComponent } from './emporio/emporio.component';
+import { CotillonComponent } from './cotillon/cotillon.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WrapperComponent,
-    FooterComponent
+    FooterComponent,
+    TortasComponent,
+    GalletasComponent,
+    EmporioComponent,
+    CotillonComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
