@@ -21,7 +21,10 @@ const routes: Routes = [
   { path : 'tortas', component: TortasComponent },
   { path : 'galletas', component: GalletasComponent },
   { path : 'emporio', component: EmporioComponent },
-  { path : 'cotillon', component: CotillonComponent }
+  { path : 'cotillon', component: CotillonComponent },
+  { path : 'nosotros', component: NosotrosComponent },
+  { path : 'recomendado', component: RecomendadosComponent },
+  { path : 'contacto', component: ContactoComponent }
 ];
 
 @NgModule({
