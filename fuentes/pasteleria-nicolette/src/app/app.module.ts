@@ -10,6 +10,9 @@ import { GalletasComponent } from './galletas/galletas.component';
 import { EmporioComponent } from './emporio/emporio.component';
 import { CotillonComponent } from './cotillon/cotillon.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { RecomendadosComponent } from './recomendados/recomendados.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { InicioComponent } from './inicio/inicio.component';
     GalletasComponent,
     EmporioComponent,
     CotillonComponent,
-    InicioComponent
+    InicioComponent,
+    ContactoComponent,
+    NosotrosComponent,
+    RecomendadosComponent
   ],
   imports: [
     BrowserModule,
