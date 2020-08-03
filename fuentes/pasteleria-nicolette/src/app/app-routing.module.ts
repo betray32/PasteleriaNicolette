@@ -13,6 +13,7 @@ import { CotillonComponent } from './cotillon/cotillon.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { RecomendadosComponent } from './recomendados/recomendados.component';
+import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path : 'cotillon', component: CotillonComponent },
   { path : 'nosotros', component: NosotrosComponent },
   { path : 'recomendado', component: RecomendadosComponent },
-  { path : 'contacto', component: ContactoComponent }
+  { path : 'contacto', component: ContactoComponent },
+  { path : 'detalle/:id', component: DetalleProductoComponent }
 ];
 
 @NgModule({
