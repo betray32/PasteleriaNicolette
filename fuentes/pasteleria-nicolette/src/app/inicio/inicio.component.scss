@@ -3,7 +3,7 @@
 }
 
 .tarjetas {
-  width: 40em;
+  width: 20em;
   height: 18em !important;
   border-radius: 21px 21px 21px 21px;
 }
@@ -33,12 +33,9 @@
   background-image: url("../../assets/img/cake-1562457.jpg") !important;
 
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -46,12 +43,9 @@
   background-image: url("../../assets/img/heart-cookies-1-1483008.jpg") !important;
 
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -60,12 +54,9 @@
   background-image: url("../../assets/img/market-series-2-1554763.jpg") !important;
 
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -73,13 +64,9 @@
 .img-cotillon {
   background-image: url("../../assets/img/party-dog.jpg") !important;
 
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 

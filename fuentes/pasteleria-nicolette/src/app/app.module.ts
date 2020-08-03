@@ -14,6 +14,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { RecomendadosComponent } from './recomendados/recomendados.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
+import { CompraFinalizadaComponent } from './compra-finalizada/compra-finalizada.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
     ContactoComponent,
     NosotrosComponent,
     RecomendadosComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    DetalleProductoComponent,
+    CompraFinalizadaComponent
   ],
   imports: [
     BrowserModule,
