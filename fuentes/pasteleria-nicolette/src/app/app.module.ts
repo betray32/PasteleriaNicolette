@@ -17,13 +17,6 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
 import { CompraFinalizadaComponent } from './compra-finalizada/compra-finalizada.component';
 
-/* Habilitar HTTP */
-import { HttpClientModule } from '@angular/common/http';
-
-/* Habilitar llamadas a servicios en memoria */
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,17 +36,7 @@ import { InMemoryDataService } from './in-memory-data.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-
-    // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
-    // and returns simulated server responses.
-    // Remove it when a real server is ready to receive requests.
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, {
-        dataEncapsulation: false
-      }
-    )
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
