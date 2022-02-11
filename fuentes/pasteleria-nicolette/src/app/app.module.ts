@@ -4,15 +4,35 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { WrapperComponent } from './wrapper/wrapper.component';
 import { FooterComponent } from './footer/footer.component';
+import { TortasComponent } from './tortas/tortas.component';
+import { GalletasComponent } from './galletas/galletas.component';
+import { EmporioComponent } from './emporio/emporio.component';
+import { CotillonComponent } from './cotillon/cotillon.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { RecomendadosComponent } from './recomendados/recomendados.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
+import { CompraFinalizadaComponent } from './compra-finalizada/compra-finalizada.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WrapperComponent,
-    FooterComponent
+    FooterComponent,
+    TortasComponent,
+    GalletasComponent,
+    EmporioComponent,
+    CotillonComponent,
+    InicioComponent,
+    ContactoComponent,
+    NosotrosComponent,
+    RecomendadosComponent,
+    CheckoutComponent,
+    DetalleProductoComponent,
+    CompraFinalizadaComponent
   ],
   imports: [
     BrowserModule,
